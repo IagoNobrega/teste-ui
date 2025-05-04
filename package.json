@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/IagoNobrega/teste-ui#readme",
   "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
     "cypress": "^14.3.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
   }
 }

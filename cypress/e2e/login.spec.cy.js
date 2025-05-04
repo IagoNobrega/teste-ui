@@ -1,5 +1,16 @@
 ///<reference types="cypress" />
 
+beforeEach(() => {
+  cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+
+});
+
+afterEach(() => {
+  cy.screenshot()
+});
+
+
+
 context('fucionalidade Login', () =>{
   it('Deve fazer um login com sucesso', ()=>{
     cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
